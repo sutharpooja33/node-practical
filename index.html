@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet"
+  href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css">
+  <title>html form</title>
+</head>
+<body>
+<div class="container">
+  <form method="POST">
+   
+    <label for="startDate">Choose an Start Date: </label>
+    <input id="startDate" type="datetime-local" name="startDate" step="2" required/>
+
+    <label for="endDate">Choose an End Date: </label>
+    <input id="endDate" type="datetime-local" name="endDate" step="2" required/>
+
+    <input class="button" type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
